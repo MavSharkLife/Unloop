@@ -1,1 +1,2 @@
-School server
+Make a readme
+lol
