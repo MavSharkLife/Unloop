@@ -1,0 +1,238 @@
+[15:15:38] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:15:39] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[15:15:39] [Worker-Main-5/INFO]: Loaded 7 recipes
+[15:15:40] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[15:15:40] [Server thread/INFO]: Loading properties
+[15:15:40] [Server thread/INFO]: This server is running Paper version git-Paper-793 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[15:15:40] [Server thread/INFO]: Debug logging is disabled
+[15:15:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:15:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:15:40] [Server thread/INFO]: Default game type: SURVIVAL
+[15:15:40] [Server thread/INFO]: Generating keypair
+[15:15:40] [Server thread/INFO]: Starting Minecraft server on *:25564
+[15:15:40] [Server thread/INFO]: Using default channel type
+[15:15:41] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[15:15:44] [Server thread/WARN]: Legacy plugin SimpleWebsite v1.0.0 does not specify an api-version.
+[15:15:44] [Server thread/WARN]: Legacy plugin LocalResourcePackHoster v1.1 does not specify an api-version.
+[15:15:44] [Server thread/INFO]: [2FA] Loading 11 libraries... please wait
+[15:15:44] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.0.0/kotlin-stdlib-2.0.0.pom
+[15:15:45] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom
+[15:15:45] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.pom
+[15:15:45] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/69/commons-parent-69.pom
+[15:15:45] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/apache/apache/31/apache-31.pom
+[15:15:45] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.pom
+[15:15:45] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.pom
+[15:15:45] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
+[15:15:45] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
+[15:15:45] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.224/h2-2.2.224.pom
+[15:15:45] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.pom
+[15:15:45] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.pom
+[15:15:45] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/4.26.1/protobuf-parent-4.26.1.pom
+[15:15:46] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/4.26.1/protobuf-bom-4.26.1.pom
+[15:15:46] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.4.0/mariadb-java-client-3.4.0.pom
+[15:15:46] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.0/junit-bom-5.7.0.pom
+[15:15:46] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/software/amazon/awssdk/bom/2.21.1/bom-2.21.1.pom
+[15:15:46] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/software/amazon/awssdk/aws-sdk-java-pom/2.21.1/aws-sdk-java-pom-2.21.1.pom
+[15:15:46] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.pom
+[15:15:46] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-parent/3.3.0/waffle-parent-3.3.0.pom
+[15:15:46] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.pom
+[15:15:46] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.pom
+[15:15:46] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.pom
+[15:15:46] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.7/slf4j-parent-2.0.7.pom
+[15:15:46] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.pom
+[15:15:47] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.pom
+[15:15:47] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0.pom
+[15:15:47] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.pom
+[15:15:47] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.10.0/error_prone_parent-2.10.0.pom
+[15:15:47] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.32.0/checker-qual-3.32.0.pom
+[15:15:47] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.pom
+[15:15:47] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.pom
+[15:15:47] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/5.1.2/mongodb-driver-sync-5.1.2.pom
+[15:15:47] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson/5.1.2/bson-5.1.2.pom
+[15:15:47] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/5.1.2/mongodb-driver-core-5.1.2.pom
+[15:15:47] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.87.Final/netty-bom-4.1.87.Final.pom
+[15:15:47] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[15:15:47] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson-record-codec/5.1.2/bson-record-codec-5.1.2.pom
+[15:15:48] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.pom
+[15:15:48] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.13/slf4j-parent-2.0.13.pom
+[15:15:48] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-bom/2.0.13/slf4j-bom-2.0.13.pom
+[15:15:48] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.pom
+[15:15:48] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.23.1/log4j-2.23.1.pom
+[15:15:48] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.23.1/log4j-bom-2.23.1.pom
+[15:15:48] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/10.6.0/logging-parent-10.6.0.pom
+[15:15:48] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/3.0.21/groovy-bom-3.0.21.pom
+[15:15:48] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.16.1/jackson-bom-2.16.1.pom
+[15:15:48] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.16/jackson-parent-2.16.pom
+[15:15:48] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/56/oss-parent-56.pom
+[15:15:48] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/jakarta/platform/jakarta.jakartaee-bom/9.1.0/jakarta.jakartaee-bom-9.1.0.pom
+[15:15:49] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/jakarta/platform/jakartaee-api-parent/9.1.0/jakartaee-api-parent-9.1.0.pom
+[15:15:49] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.7/project-1.0.7.pom
+[15:15:49] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.54.v20240208/jetty-bom-9.4.54.v20240208.pom
+[15:15:49] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/io/fabric8/kubernetes-client-bom/5.12.4/kubernetes-client-bom-5.12.4.pom
+[15:15:49] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/mockito/mockito-bom/4.11.0/mockito-bom-4.11.0.pom
+[15:15:49] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.107.Final/netty-bom-4.1.107.Final.pom
+[15:15:49] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.32/spring-framework-bom-5.3.32.pom
+[15:15:49] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.pom
+[15:15:49] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/atlassian/onetime/2.1.1/onetime-2.1.1.pom
+[15:15:49] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.23/kotlin-stdlib-1.9.23.pom
+[15:15:49] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.pom
+[15:15:49] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/66/commons-parent-66.pom
+[15:15:50] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.1/junit-bom-5.10.1.pom
+[15:15:50] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.8.0/kotlinx-coroutines-core-jvm-1.8.0.pom
+[15:15:50] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.8.0/kotlinx-coroutines-bom-1.8.0.pom
+[15:15:50] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom
+[15:15:50] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.21/kotlin-stdlib-1.9.21.pom
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.0.0/kotlin-stdlib-2.0.0.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: Downloading https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.224/h2-2.2.224.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: Downloading https://repo.maven.apache.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.4.0/mariadb-java-client-3.4.0.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson/5.1.2/bson-5.1.2.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/5.1.2/mongodb-driver-core-5.1.2.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson-record-codec/5.1.2/bson-record-codec-5.1.2.jar
+[15:15:50] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/5.1.2/mongodb-driver-sync-5.1.2.jar
+[15:15:51] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+[15:15:51] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar
+[15:15:51] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar
+[15:15:51] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: Downloading https://repo.maven.apache.org/maven2/com/atlassian/onetime/2.1.1/onetime-2.1.1.jar
+[15:15:51] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.8.0/kotlinx-coroutines-core-jvm-1.8.0.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\org\jetbrains\kotlin\kotlin-stdlib\2.0.0\kotlin-stdlib-2.0.0.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\org\jetbrains\annotations\13.0\annotations-13.0.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\com\h2database\h2\2.2.224\h2-2.2.224.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\com\mysql\mysql-connector-j\9.0.0\mysql-connector-j-9.0.0.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\com\google\protobuf\protobuf-java\4.26.1\protobuf-java-4.26.1.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\org\mariadb\jdbc\mariadb-java-client\3.4.0\mariadb-java-client-3.4.0.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\com\github\waffle\waffle-jna\3.3.0\waffle-jna-3.3.0.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\org\slf4j\jcl-over-slf4j\2.0.7\jcl-over-slf4j-2.0.7.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\com\github\ben-manes\caffeine\caffeine\2.9.3\caffeine-2.9.3.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\com\google\errorprone\error_prone_annotations\2.10.0\error_prone_annotations-2.10.0.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\org\mongodb\mongodb-driver-sync\5.1.2\mongodb-driver-sync-5.1.2.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\org\mongodb\bson\5.1.2\bson-5.1.2.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\org\mongodb\mongodb-driver-core\5.1.2\mongodb-driver-core-5.1.2.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\org\mongodb\bson-record-codec\5.1.2\bson-record-codec-5.1.2.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\com\atlassian\onetime\2.1.1\onetime-2.1.1.jar
+[15:15:51] [Server thread/INFO]: [2FA] Loaded library C:\Users\easto\Downloads\schoolbackend - Copy\libraries\org\jetbrains\kotlinx\kotlinx-coroutines-core-jvm\1.8.0\kotlinx-coroutines-core-jvm-1.8.0.jar
+[15:15:51] [Server thread/ERROR]: Could not load 'plugins\2FA-1.7.1-all.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/lielamar/auth/bukkit/TwoFactorAuthentication has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[patched_1.16.5.jar:git-Paper-793]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:414) ~[patched_1.16.5.jar:git-Paper-793]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:322) ~[patched_1.16.5.jar:git-Paper-793]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Paper-793]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:269) ~[patched_1.16.5.jar:git-Paper-793]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-793]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-793]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.lang.UnsupportedClassVersionError: com/lielamar/auth/bukkit/TwoFactorAuthentication has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1022) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:201) ~[patched_1.16.5.jar:git-Paper-793]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:594) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:119) ~[patched_1.16.5.jar:git-Paper-793]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:114) ~[patched_1.16.5.jar:git-Paper-793]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:398) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.16.5.jar:git-Paper-793]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[patched_1.16.5.jar:git-Paper-793]
+	... 7 more
+[15:15:51] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.2
+[15:15:51] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.2 is now loaded. Registering protocol transformers and injecting...
+[15:15:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:15:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[15:15:52] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[15:15:52] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[15:15:52] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[15:15:52] [Server thread/INFO]: [SimpleWebsite] Loading SimpleWebsite v1.0.0
+[15:15:52] [Server thread/INFO]: [LocalResourcePackHoster] Loading LocalResourcePackHoster v1.1
+[15:15:52] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.10.2
+[15:15:52] [Server thread/INFO]: [Sit] Loading Sit v1.7.1
+[15:15:52] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.1.2-SNAPSHOT
+[15:15:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:15:52] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.1.2-SNAPSHOT
+[15:15:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:15:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:15:52] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[15:15:52] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[15:15:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:15:52] [Server thread/INFO]: Preparing level "world"
+[15:15:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:15:53] [Server thread/INFO]: Time elapsed: 237 ms
+[15:15:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:15:53] [Server thread/INFO]: Time elapsed: 320 ms
+[15:15:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:15:54] [Server thread/INFO]: Preparing spawn area: 0%
+[15:15:54] [Server thread/INFO]: Preparing spawn area: 0%
+[15:15:54] [Worker-Main-8/INFO]: Preparing spawn area: 100%
+[15:15:55] [Server thread/INFO]: Time elapsed: 1419 ms
+[15:15:55] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.2
+[15:15:55] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4-1.16.5 (754)
+[15:15:55] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please update it to at least Java 17 (your version is 11.0.25).
+[15:15:55] [Server thread/WARN]: [ViaVersion] Starting with Minecraft 1.21, ViaVersion will no longer officially be compatible with this version of Java, only offering unsupported compatibility builds.
+[15:15:55] [Server thread/INFO]: [SimpleWebsite] Enabling SimpleWebsite v1.0.0*
+[15:15:55] [Server thread/INFO]: [SimpleWebsite] ============================================
+[15:15:55] [Server thread/INFO]: [SimpleWebsite] Simple Website Plugin has been enabled!
+[15:15:55] [Server thread/INFO]: [SimpleWebsite] Your Plugin is up to date : 1.0.0
+[15:15:55] [Server thread/INFO]: [SimpleWebsite] ============================================
+[15:15:55] [Server thread/INFO]: [LocalResourcePackHoster] Enabling LocalResourcePackHoster v1.1*
+[15:15:55] [Server thread/INFO]: [LocalResourcePackHoster] Discovered resource pack 'demopack.zip'
+[15:15:55] [Server thread/INFO]: [LocalResourcePackHoster] Successfully started the mini http daemon!
+[15:15:55] [Server thread/INFO]: [LocalResourcePackHoster] IP is '66.219.242.248'
+[15:15:55] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.10.2
+[15:15:55] [Server thread/INFO]: [Sit] Enabling Sit v1.7.1
+[15:15:55] [Server thread/INFO]: Running delayed init tasks
+[15:15:55] [Server thread/INFO]: Done (15.101s)! For help, type "help"
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 11.0.25
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
+[15:15:55] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[15:15:55] [Craft Scheduler Thread - 2/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[15:15:55] [Server thread/INFO]: Timings Reset
+[15:15:55] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.0, you're on: 4.10.2
+[15:19:21] [User Authenticator #1/INFO]: UUID of player YeerYee6410 is 5bb33b36-0baa-3066-bba3-55d05122e065
+[15:19:22] [Server thread/INFO]: YeerYee6410 joined the game
+[15:19:22] [Server thread/INFO]: YeerYee6410[/192.168.0.128:58857] logged in with entity id 307 at ([world]-300.5621638424143, 59.83874738599535, 163.15766869039487)
+[15:19:22] [Netty Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[15:19:22] [Netty Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[15:19:22] [Netty Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in serverbound REGISTER: FML
+[15:19:22] [Netty Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[15:19:22] [Netty Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[15:19:22] [Netty Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[15:19:22] [Netty Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[15:19:22] [Netty Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[15:19:22] [Netty Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[15:19:22] [Netty Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in serverbound REGISTER: FORGE
+[15:19:22] [Netty Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[15:19:22] [Netty Server IO #1/WARN]: [ViaBackwards] Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[15:20:28] [Server thread/INFO]: YeerYee6410 issued server command: /2fa

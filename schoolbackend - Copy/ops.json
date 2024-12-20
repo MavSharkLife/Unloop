@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "1c5bce9e-be25-36a7-80cf-abeb07a96f85",
+    "name": "Maxi",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "bfeb707a-f6aa-3a78-8568-7f715b7592f5",
+    "name": "MavSharkLive",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a219f87b-882d-3617-bee3-ea8faa9337b0",
+    "name": "EaglerYeeler9917",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

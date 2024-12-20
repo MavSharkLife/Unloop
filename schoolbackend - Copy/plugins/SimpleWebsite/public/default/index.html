@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unloop</title>
+    <link rel="icon" sizes="512x512" href="media/watercrdropicon.ico"/>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 100vh;
+            align-items: center; /* Centers everything horizontally */
+        }
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background: #121212;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a {
+	outline: none !important;
+}
+.ms-nav-container {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+#ms-menu {
+	display: none;
+}
+.bg-change {
+	position: absolute;
+	bottom: -75px;
+	right: -90px;
+	width: 1px;
+	height: 1px;
+	border-radius: 100% 0% 0% 0%;
+	background: #2D394D;
+	transition: all .25s ease;
+}
+.ms-nav .ms-menu-toggle:checked ~ .bg-change {
+	width: 3000px;
+	height: 3000px;
+	transition: all .5s ease;
+}
+.ms-nav {
+	position: absolute;
+	bottom: 75px;
+	right: 75px;
+}
+.ms-nav > .ms-main {
+	position: relative;
+}
+
+.ms-nav > .ms-li {
+	position: absolute;
+	bottom: 0;
+	right: 8px;
+	transition: bottom .5s ease;
+	z-index: 1;
+}
+.ms-nav .ms-menu-toggle:checked ~ .ms-li a {
+	box-shadow: 0px 5px 10px #333333;
+}
+	.ms-nav .ms-menu-toggle:checked ~ .ms-li1 {
+		bottom: 150%;
+		transition: bottom .5s ease;
+	}
+	.ms-nav .ms-menu-toggle:checked ~ .ms-li1 a span {
+		opacity: 1;
+		transition: opacity .5s ease .1s;
+	}
+		.ms-nav .ms-menu-toggle:checked ~ .ms-main:after {
+			animation: big-border-bottom-animation .5s ease .1s;
+		}
+		.ms-nav .ms-menu-toggle:checked ~ .ms-li1:before {
+			animation: border-top-animation .5s ease .2s;
+		}
+		.ms-nav .ms-menu-toggle:checked ~ .ms-li1:after {
+			animation: border-bottom-animation .5s ease .2s;
+		}
+	.ms-nav .ms-menu-toggle:checked ~ .ms-li2 {
+		bottom: 265%;
+		transition: bottom .6s ease;
+	}
+	.ms-nav .ms-menu-toggle:checked ~ .ms-li2 a span {
+		opacity: 1;
+		transition: opacity .6s ease .2s;
+	}
+		.ms-nav .ms-menu-toggle:checked ~ .ms-li2:before {
+			animation: border-top-animation .5s ease .2s;
+		}
+		.ms-nav .ms-menu-toggle:checked ~ .ms-li2:after {
+			animation: border-bottom-animation .5s ease .3s;
+		}
+	.ms-nav .ms-menu-toggle:checked ~ .ms-li3 {
+		bottom: 380%;
+		transition: bottom .7s ease;
+	}
+	.ms-nav .ms-menu-toggle:checked ~ .ms-li3 a span {
+		opacity: 1;
+		transition: opacity .7s ease .3s;
+	}
+		.ms-nav .ms-menu-toggle:checked ~ .ms-li3:before {
+			animation: border-top-animation .5s ease .3s;
+		}
+		.ms-nav .ms-menu-toggle:checked ~ .ms-li3:after {
+			animation: border-bottom-animation .5s ease .4s;
+		}
+	.ms-nav .ms-menu-toggle:checked ~ .ms-li4 {
+		bottom: 495%;
+		transition: bottom .8s ease;
+	}
+	.ms-nav .ms-menu-toggle:checked ~ .ms-li4 a span {
+		opacity: 1;
+		transition: opacity .8s ease .4s;
+	}
+		.ms-nav .ms-menu-toggle:checked ~ .ms-li4:before {
+			animation: border-top-animation .5s ease .4s;
+		}
+	
+		.ms-nav .ms-menu-toggle ~ .ms-li:before {
+			content: '';
+			width: 45px;
+			display: block;
+			position: absolute;
+			bottom: -5px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			border-left: 20px solid transparent;
+			border-right: 20px solid transparent;
+			border-top: 0px solid #337ab7;
+		}
+		.ms-nav .ms-menu-toggle ~ .ms-li:before {
+			content: '';
+			width: 45px;
+			display: block;
+			position: absolute;
+			bottom: -5px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			border-left: 20px solid transparent;
+			border-right: 20px solid transparent;
+			border-top: 0px solid #337ab7;
+		}
+		.ms-nav .ms-menu-toggle:checked ~ .ms-li:before {
+			content: '';
+			width: 45px;
+			display: block;
+			position: absolute;
+			bottom: 0px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			border-left: 24px solid transparent;
+			border-right: 24px solid transparent;
+			border-top: 25px solid #337ab7;
+			z-index: 11;
+		}
+		.ms-nav .ms-menu-toggle:checked ~ .ms-li:after {
+			content: '';
+			width: 45px;
+			display: block;
+			position: absolute;
+			top: 0px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			border-left: 24px solid transparent;
+			border-right: 24px solid transparent;
+			border-bottom: 25px solid #337ab7;
+			transition: border-bottom .3s ease;
+			z-index: 11;
+		}
+
+		.ms-nav .ms-menu-toggle:checked ~ .ms-main:after {
+			content: '';
+			width: 60px;
+			display: block;
+			position: absolute;
+			top: 0px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			border-left: 24px solid transparent;
+			border-right: 24px solid transparent;
+			border-bottom: 45px solid #337ab7;
+			transition: border-bottom .3s ease;
+			z-index: 11;
+		}
+		.ms-nav .ms-menu-toggle:checked ~ .ms-li-last:after {
+			content: '';
+			width: 45px;
+			display: block;
+			position: absolute;
+			top: -5px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			border-left: 0px solid transparent;
+			border-right: 0px solid transparent;
+			border-bottom: 0px solid #337ab7;
+		}
+
+.ms-nav .ms-menu-toggle:checked ~ .ms-main span {
+	transform: rotate(-45deg);
+	transition: transform .35s ease;
+}
+.ms-nav .ms-menu-toggle ~ .ms-main span {
+	transition: transform .35s ease;
+	opacity: 1;
+}
+.ms-nav > .ms-main > a {
+	box-shadow: 0px 5px 10px #333333;
+}
+.ms-nav > li a {
+	font-size: 30px;
+	color: #FFFFFF;
+	background: #337ab7;
+	width: 60px;
+	height: 60px;
+	display: block;
+	border-radius: 100%;
+	position: relative;
+	text-align: center;
+}
+
+	.ms-nav > .ms-main a,
+	.ms-nav > .ms-main > a > label {
+		font-size: 30px;
+		color: #FFFFFF;
+		background: #337ab7;
+		width: 75px;
+    	height: 75px;
+		display: block;
+		border-radius: 100%;
+		position: relative;
+		text-align: center;
+		z-index: 19;
+	}
+		.ms-nav > li > a span {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+			height: 30px;
+			width: 30px;
+			opacity: 0;
+			z-index: 12;
+		}
+@keyframes border-top-animation {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: -14px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+@keyframes border-bottom-animation {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -13px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes big-border-bottom-animation {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -30px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+        header {
+            width: 100%;
+            background-color: #1c1c1c;
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Centers content horizontally */
+            padding: 10px 20px;
+            position: relative;
+        }
+
+        .menu-button {
+            background-color: #1c1c1c;
+            color: white;
+            font-size: 24px;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            padding: 10px;
+            position: absolute;
+            left: 20px; /* Position the menu button to the left of the header */
+        }
+
+        .menu-button span {
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: white;
+            transition: transform 0.3s ease;
+        }
+
+        .menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #1c1c1c;
+            width: 200px;
+            display: none;
+            flex-direction: column;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu a:hover {
+            background-color: #009bff;
+        }
+
+        .menu-button.active + .menu {
+            display: flex;
+        }
+
+        .play-button {
+            background-color: white;
+            color: #121212;
+            font-size: 48px;
+            font-weight: bold;
+            padding: 40px 80px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+            text-decoration: none;
+            margin: 1px 20px; /* Margin for spacing between elements */
+            display: flex;
+            justify-content: center;
+	    align-items: center;
+	    text-align: center;
+        }
+
+        .play-button:hover {
+            transform: scale(1.2);
+            background-color: #009bff;
+            color: white;
+        }
+
+        .play-button:active {
+            transform: scale(1.1);
+        }
+   .unstable-button {
+            background-color: white;
+            color: #121212;
+            font-size: 20px;
+            font-weight: bold
+;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+            text-decoration: none;
+            margin: 2px 2px; /* Margin for spacing between elements */
+            display: flex;
+            justify-content: center;
+	    align-items: center;
+	    text-align: center;
+        }
+
+        .unstable-button:hover {
+            transform: scale(1.2);
+            background-color: #900bff;
+            color: white;
+        }
+
+        .unstable-button:active {
+            transform: scale(1.1);
+}
+
+        .text-container {
+            background-color: #0E0E0F;
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 100px auto;
+            width: 80%;
+            max-width: 1562px;
+            min-height: 720px;
+            box-sizing: border-box;
+            position: relative;
+            box-shadow: 0 0 10px 5px rgba(14, 14, 14, 1), 0 0 20px 5px rgba(158, 158, 158, 255);
+        }
+
+        footer {
+            position: relative;
+            width: 100%;
+            background-color: #1c1c1c;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        footer::after {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 40px;
+            background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"%3E%3Cpath fill="%23121212" fill-opacity="1" d="M0,192L48,176C96,160,192,128,288,122.7C384,117,480,139,576,149.3C672,160,768,160,864,149.3C960,139,1056,117,1152,101.3C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"%3E%3C/path%3E%3C/svg%3E') repeat-x;
+        }
+        .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+    </style>
+</head>
+<body>
+   <header>
+    <div class="button-container">
+        <a href="play/play/index.html" class="play-button">Play</a>
+        <a href="play/playXWASM/index.html" class="unstable-button">Unstable Version</a>
+    </div>
+</header>
+    <!-- Text container with light grey background, rounded edges, and gradient outline -->
+    <div class="text-container">
+        <h1>Announcments - </h2>
+        <p>
+            <h2>Open Beta V0.1!</h2> <br>
+YES! I finally am able to publish this. (in beta atleast). Currently, you can play singleplayer and multiplayer with 90% success 
+        </p>
+    </div>
+
+    <footer>
+        <p>Contact me at: mavsharklive@gmail.com or @mavmc on discord</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.querySelector('.menu');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+        });
+    </script>
+
+
+</body></html>
