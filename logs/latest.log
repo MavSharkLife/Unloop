@@ -1,0 +1,206 @@
+[09:40:14] [main/INFO]: Using standard Java JCE cipher.
+[09:40:14] [main/INFO]: Using standard Java compressor.
+[09:40:14] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:9ab9e2b:582
+[09:40:14] [main/WARN]: Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/).
+[09:40:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+[09:40:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+[09:40:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+[09:40:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+[09:40:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+[09:40:14] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+[09:40:14] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:9ab9e2b:582 by WaterfallMC
+[09:40:14] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:9ab9e2b:582 by WaterfallMC
+[09:40:14] [main/WARN]: Error loading plugin ViaVersion
+java.lang.UnsupportedClassVersionError: com/viaversion/bungee/ViaBungeePlugin has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1022) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152) ~[waterfall-1.21-582.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:9ab9e2b:582]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:594) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66) ~[waterfall-1.21-582.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:9ab9e2b:582]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[waterfall-1.21-582.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:9ab9e2b:582]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:395) ~[waterfall-1.21-582.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:9ab9e2b:582]
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:301) ~[waterfall-1.21-582.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:9ab9e2b:582]
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:290) ~[waterfall-1.21-582.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:9ab9e2b:582]
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:68) ~[waterfall-1.21-582.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:9ab9e2b:582]
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[waterfall-1.21-582.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:9ab9e2b:582]
+[09:40:14] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:9ab9e2b:582 by WaterfallMC
+[09:40:14] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:9ab9e2b:582 by WaterfallMC
+[09:40:14] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:9ab9e2b:582 by WaterfallMC
+[09:40:14] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:9ab9e2b:582 by WaterfallMC
+[09:40:14] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[09:40:14] [main/WARN]: :>  
+[09:40:14] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[09:40:14] [main/WARN]: :>  
+[09:40:14] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[09:40:14] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[09:40:14] [main/WARN]: :>  apart from the versions listed below:
+[09:40:14] [main/WARN]: :>  
+[09:40:14] [main/WARN]: :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:20a71b0:1887
+[09:40:14] [main/WARN]: :>  - Waterfall: 1.21-R0.1-SNAPSHOT:bf1be7e:581
+[09:40:14] [main/WARN]: :>  
+[09:40:14] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[09:40:14] [main/WARN]: :>  
+[09:40:14] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[09:40:14] [main/WARN]: :>  
+[09:40:14] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[09:40:14] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.3.4 by lax1dude
+[09:40:14] [main/WARN]: Forced host server pvp is not defined
+[09:40:14] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:9ab9e2b:582 by WaterfallMC
+[09:40:14] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:9ab9e2b:582 by WaterfallMC
+[09:40:14] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:9ab9e2b:582 by WaterfallMC
+[09:40:14] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:9ab9e2b:582 by WaterfallMC
+[09:40:14] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:9ab9e2b:582 by WaterfallMC
+[09:40:14] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:9ab9e2b:582 by WaterfallMC
+[09:40:14] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[09:40:15] [Netty Boss IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[09:40:15] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[09:40:15] [main/INFO] [EaglercraftXBungee]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[09:40:15] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.3.4 by lax1dude
+[09:40:15] [EaglerXBungee: Update Service Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: C:\Users\easto\Downloads\schoolserevreagle\plugins\EaglercraftXBungee\eagcert\$dl.10c38fdb3ad544fd9787a829c4ab27f56d7ff682.cert
+[09:40:15] [Netty Boss IO Thread #1/INFO]: Listening on /0.0.0.0:25565
+[09:40:15] [Netty Worker IO Thread #0/WARN] [EaglercraftXBungee]: Server icon is not a file: C:\Users\easto\Downloads\schoolserevreagle\server-icon.png
+[09:40:38] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/192.168.0.128:57599]: Connected via websocket
+[09:40:38] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/192.168.0.128:57599]: Origin header is https://www.unloop.org
+[09:40:39] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/192.168.0.128:57599]: Logged in as 'EaglerYeeler9917'
+[09:40:39] [Netty Worker IO Thread #2/INFO]: [/192.168.0.128:57599|EaglerYeeler9917] -> UpstreamBridge has connected
+[09:40:39] [Netty Worker IO Thread #2/INFO]: [EaglerYeeler9917|/192.168.0.128:57599] <-> ServerConnector [lobby] has connected
+[09:46:49] [Netty Worker IO Thread #3/INFO]: [/192.168.0.128:58280] <-> InitialHandler has connected
+[09:46:49] [Netty Worker IO Thread #3/INFO]: [MavSharkLive|/192.168.0.128:58280] <-> ServerConnector [lobby] has connected
+[09:46:49] [Netty Worker IO Thread #3/INFO]: [MavSharkLive] disconnected with: Kicked whilst connecting to lobby: Outdated server! I'm still on 1.16.5
+[09:46:49] [Netty Worker IO Thread #3/INFO]: [/192.168.0.128:58280|MavSharkLive] -> UpstreamBridge has disconnected
+[09:46:49] [Netty Worker IO Thread #3/INFO]: [MavSharkLive|/192.168.0.128:58280] <-> ServerConnector [lobby] has disconnected
+[09:48:20] [Netty Worker IO Thread #2/INFO]: [/192.168.0.128:57599|EaglerYeeler9917] -> UpstreamBridge has disconnected
+[09:48:20] [Netty Worker IO Thread #2/INFO]: [/192.168.0.128:57599|EaglerYeeler9917] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:22:01] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/192.168.0.128:61565]: Connected via websocket
+[10:22:01] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/192.168.0.128:61565]: Origin header is https://www.unloop.org
+[10:22:01] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/192.168.0.128:61565]: Logged in as 'EaglerYeeler9917'
+[10:22:01] [Netty Worker IO Thread #6/INFO]: [/192.168.0.128:61565|EaglerYeeler9917] -> UpstreamBridge has connected
+[10:22:01] [Netty Worker IO Thread #6/INFO]: [EaglerYeeler9917|/192.168.0.128:61565] <-> ServerConnector [lobby] has connected
+[10:25:39] [Netty Worker IO Thread #6/WARN]: [/192.168.0.128:61565|EaglerYeeler9917] <-> DownstreamBridge <-> [lobby] - IOException: An existing connection was forcibly closed by the remote host
+[10:25:39] [Netty Worker IO Thread #6/INFO]: [EaglerYeeler9917] disconnected with: IOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+[10:25:39] [Netty Worker IO Thread #6/INFO]: [/192.168.0.128:61565|EaglerYeeler9917] -> UpstreamBridge has disconnected
+[10:25:39] [Netty Worker IO Thread #6/INFO]: [/192.168.0.128:61565|EaglerYeeler9917] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:26:06] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/192.168.0.128:62219]: Connected via websocket
+[10:26:06] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/192.168.0.128:62219]: Origin header is https://www.unloop.org
+[10:26:06] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/192.168.0.128:62219]: Logged in as 'EaglerYeeler9917'
+[10:26:06] [Netty Worker IO Thread #7/INFO]: [/192.168.0.128:62219|EaglerYeeler9917] -> UpstreamBridge has connected
+[10:26:06] [Netty Worker IO Thread #7/INFO]: [EaglerYeeler9917|/192.168.0.128:62219] <-> ServerConnector [lobby] has connected
+[10:28:44] [Netty Worker IO Thread #7/INFO]: [/192.168.0.128:62219|EaglerYeeler9917] -> UpstreamBridge has disconnected
+[10:28:44] [Netty Worker IO Thread #7/INFO]: [/192.168.0.128:62219|EaglerYeeler9917] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:51:21] [Netty Worker IO Thread #9/INFO] [EaglercraftXBungee]: [/192.168.0.128:49301]: Connected via websocket
+[10:51:21] [Netty Worker IO Thread #9/INFO] [EaglercraftXBungee]: [/192.168.0.128:49301]: Origin header is null
+[10:51:21] [Netty Worker IO Thread #9/INFO] [EaglercraftXBungee]: [/192.168.0.128:49301]: Logged in as 'YeeishYeeish5376'
+[10:51:21] [Netty Worker IO Thread #9/INFO]: [/192.168.0.128:49301|YeeishYeeish5376] -> UpstreamBridge has connected
+[10:51:21] [Netty Worker IO Thread #9/INFO]: [YeeishYeeish5376|/192.168.0.128:49301] <-> ServerConnector [lobby] has connected
+[10:51:49] [Netty Worker IO Thread #9/INFO]: [/192.168.0.128:49301|YeeishYeeish5376] -> UpstreamBridge has disconnected
+[10:51:49] [Netty Worker IO Thread #9/INFO]: [/192.168.0.128:49301|YeeishYeeish5376] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:52:30] [Netty Worker IO Thread #10/INFO] [EaglercraftXBungee]: [/192.168.0.128:49434]: Connected via websocket
+[10:52:30] [Netty Worker IO Thread #10/INFO] [EaglercraftXBungee]: [/192.168.0.128:49434]: Origin header is https://www.unloop.org
+[10:52:30] [Netty Worker IO Thread #10/INFO] [EaglercraftXBungee]: [/192.168.0.128:49434]: Logged in as 'EaglerYeeler9917'
+[10:52:30] [Netty Worker IO Thread #10/INFO]: [/192.168.0.128:49434|EaglerYeeler9917] -> UpstreamBridge has connected
+[10:52:30] [Netty Worker IO Thread #10/INFO]: [EaglerYeeler9917|/192.168.0.128:49434] <-> ServerConnector [lobby] has connected
+[10:53:14] [Netty Worker IO Thread #10/INFO]: [/192.168.0.128:49434|EaglerYeeler9917] -> UpstreamBridge has disconnected
+[10:53:14] [Netty Worker IO Thread #10/INFO]: [/192.168.0.128:49434|EaglerYeeler9917] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:01:35] [Netty Worker IO Thread #12/INFO] [EaglercraftXBungee]: [/192.168.0.128:50611]: Connected via websocket
+[11:01:35] [Netty Worker IO Thread #12/INFO] [EaglercraftXBungee]: [/192.168.0.128:50611]: Origin header is https://www.unloop.org
+[11:01:36] [Netty Worker IO Thread #12/INFO] [EaglercraftXBungee]: [/192.168.0.128:50611]: Logged in as 'EaglerYeeler9917'
+[11:01:36] [Netty Worker IO Thread #12/INFO]: [/192.168.0.128:50611|EaglerYeeler9917] -> UpstreamBridge has connected
+[11:01:36] [Netty Worker IO Thread #12/INFO]: [EaglerYeeler9917|/192.168.0.128:50611] <-> ServerConnector [lobby] has connected
+[11:01:39] [Netty Worker IO Thread #12/INFO]: [/192.168.0.128:50611|EaglerYeeler9917] -> UpstreamBridge has disconnected
+[11:01:43] [Netty Worker IO Thread #13/INFO] [EaglercraftXBungee]: [/192.168.0.128:50623]: Connected via websocket
+[11:01:43] [Netty Worker IO Thread #13/INFO] [EaglercraftXBungee]: [/192.168.0.128:50623]: Origin header is https://www.unloop.org
+[11:01:43] [Netty Worker IO Thread #13/INFO] [EaglercraftXBungee]: [/192.168.0.128:50623]: Logged in as 'EaglerYeeler9917'
+[11:01:43] [Netty Worker IO Thread #13/INFO]: [/192.168.0.128:50623|EaglerYeeler9917] -> UpstreamBridge has connected
+[11:01:43] [Netty Worker IO Thread #13/INFO]: [EaglerYeeler9917|/192.168.0.128:50623] <-> ServerConnector [lobby] has connected
+[11:01:43] [Netty Worker IO Thread #12/INFO]: [EaglerYeeler9917] disconnected with: You logged in from another location
+[11:01:43] [Netty Worker IO Thread #12/INFO]: [/192.168.0.128:50611|EaglerYeeler9917] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:01:59] [Netty Worker IO Thread #13/INFO]: [/192.168.0.128:50623|EaglerYeeler9917] -> UpstreamBridge has disconnected
+[11:01:59] [Netty Worker IO Thread #13/INFO]: [/192.168.0.128:50623|EaglerYeeler9917] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:02:07] [Netty Worker IO Thread #16/INFO] [EaglercraftXBungee]: [/192.168.0.128:50680]: Connected via websocket
+[11:02:07] [Netty Worker IO Thread #16/INFO] [EaglercraftXBungee]: [/192.168.0.128:50680]: Origin header is https://www.unloop.org
+[11:02:07] [Netty Worker IO Thread #16/INFO] [EaglercraftXBungee]: [/192.168.0.128:50680]: Logged in as 'EaglerYeeler9917'
+[11:02:07] [Netty Worker IO Thread #16/INFO]: [/192.168.0.128:50680|EaglerYeeler9917] -> UpstreamBridge has connected
+[11:02:07] [Netty Worker IO Thread #16/INFO]: [EaglerYeeler9917|/192.168.0.128:50680] <-> ServerConnector [lobby] has connected
+[11:02:14] [Netty Worker IO Thread #16/INFO]: [/192.168.0.128:50680|EaglerYeeler9917] -> UpstreamBridge has disconnected
+[11:02:14] [Netty Worker IO Thread #16/INFO]: [/192.168.0.128:50680|EaglerYeeler9917] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:08:03] [Netty Worker IO Thread #18/INFO] [EaglercraftXBungee]: [/192.168.0.128:51516]: Connected via websocket
+[11:08:03] [Netty Worker IO Thread #18/INFO] [EaglercraftXBungee]: [/192.168.0.128:51516]: Origin header is null
+[11:08:03] [Netty Worker IO Thread #18/INFO] [EaglercraftXBungee]: [/192.168.0.128:51516]: Logged in as 'YeeishYeeish5376'
+[11:08:03] [Netty Worker IO Thread #18/INFO]: [/192.168.0.128:51516|YeeishYeeish5376] -> UpstreamBridge has connected
+[11:08:03] [Netty Worker IO Thread #18/INFO]: [YeeishYeeish5376|/192.168.0.128:51516] <-> ServerConnector [lobby] has connected
+[11:08:14] [Netty Worker IO Thread #18/INFO]: [/192.168.0.128:51516|YeeishYeeish5376] -> UpstreamBridge has disconnected
+[11:08:14] [Netty Worker IO Thread #18/INFO]: [/192.168.0.128:51516|YeeishYeeish5376] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:23:38] [Netty Worker IO Thread #20/INFO] [EaglercraftXBungee]: [/192.168.0.128:53195]: Connected via websocket
+[11:23:38] [Netty Worker IO Thread #20/INFO] [EaglercraftXBungee]: [/192.168.0.128:53195]: Origin header is null
+[11:23:38] [Netty Worker IO Thread #20/INFO] [EaglercraftXBungee]: [/192.168.0.128:53195]: Logged in as 'YeeishYeeish5376'
+[11:23:38] [Netty Worker IO Thread #20/INFO]: [/192.168.0.128:53195|YeeishYeeish5376] -> UpstreamBridge has connected
+[11:23:38] [Netty Worker IO Thread #20/INFO]: [YeeishYeeish5376|/192.168.0.128:53195] <-> ServerConnector [lobby] has connected
+[11:24:06] [Netty Worker IO Thread #20/INFO]: [/192.168.0.128:53195|YeeishYeeish5376] -> UpstreamBridge has disconnected
+[11:24:06] [Netty Worker IO Thread #20/INFO]: [/192.168.0.128:53195|YeeishYeeish5376] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:27:53] [Netty Worker IO Thread #21/INFO] [EaglercraftXBungee]: [/192.168.0.128:53902]: Connected via websocket
+[11:27:53] [Netty Worker IO Thread #21/INFO] [EaglercraftXBungee]: [/192.168.0.128:53902]: Origin header is https://www.unloop.org
+[11:27:53] [Netty Worker IO Thread #21/INFO] [EaglercraftXBungee]: [/192.168.0.128:53902]: Logged in as 'EaglerYeeler9917'
+[11:27:53] [Netty Worker IO Thread #21/INFO]: [/192.168.0.128:53902|EaglerYeeler9917] -> UpstreamBridge has connected
+[11:27:53] [Netty Worker IO Thread #21/INFO]: [EaglerYeeler9917|/192.168.0.128:53902] <-> ServerConnector [lobby] has connected
+[11:28:10] [Netty Worker IO Thread #21/INFO]: [/192.168.0.128:53902|EaglerYeeler9917] -> UpstreamBridge has disconnected
+[11:28:10] [Netty Worker IO Thread #21/INFO]: [/192.168.0.128:53902|EaglerYeeler9917] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:32:46] [Netty Worker IO Thread #23/INFO] [EaglercraftXBungee]: [/192.168.0.128:54510]: Connected via websocket
+[11:32:46] [Netty Worker IO Thread #23/INFO] [EaglercraftXBungee]: [/192.168.0.128:54510]: Origin header is https://www.unloop.org
+[11:32:46] [Netty Worker IO Thread #23/INFO] [EaglercraftXBungee]: [/192.168.0.128:54510]: Logged in as 'EaglerYeeler9917'
+[11:32:46] [Netty Worker IO Thread #23/INFO]: [/192.168.0.128:54510|EaglerYeeler9917] -> UpstreamBridge has connected
+[11:32:46] [Netty Worker IO Thread #23/INFO]: [EaglerYeeler9917|/192.168.0.128:54510] <-> ServerConnector [lobby] has connected
+[11:32:54] [Netty Worker IO Thread #23/INFO]: [/192.168.0.128:54510|EaglerYeeler9917] -> UpstreamBridge has disconnected
+[11:32:54] [Netty Worker IO Thread #23/INFO]: [/192.168.0.128:54510|EaglerYeeler9917] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:15:48] [Netty Worker IO Thread #27/INFO] [EaglercraftXBungee]: [/192.168.0.128:54216]: Connected via websocket
+[13:15:48] [Netty Worker IO Thread #27/INFO] [EaglercraftXBungee]: [/192.168.0.128:54216]: Origin header is https://www.unloop.org
+[13:15:48] [Netty Worker IO Thread #27/INFO] [EaglercraftXBungee]: [/192.168.0.128:54216]: Logged in as 'EaglerYeeler9917'
+[13:15:48] [Netty Worker IO Thread #27/INFO]: [/192.168.0.128:54216|EaglerYeeler9917] -> UpstreamBridge has connected
+[13:15:48] [Netty Worker IO Thread #27/INFO]: [EaglerYeeler9917|/192.168.0.128:54216] <-> ServerConnector [lobby] has connected
+[13:17:06] [Netty Worker IO Thread #29/INFO] [EaglercraftXBungee]: [/192.168.0.128:54480]: Connected via websocket
+[13:17:06] [Netty Worker IO Thread #29/INFO] [EaglercraftXBungee]: [/192.168.0.128:54480]: Origin header is https://www.unloop.org
+[13:17:06] [Netty Worker IO Thread #29/INFO] [EaglercraftXBungee]: [/192.168.0.128:54480]: Logged in as 'Maxi'
+[13:17:06] [Netty Worker IO Thread #29/INFO]: [/192.168.0.128:54480|Maxi] -> UpstreamBridge has connected
+[13:17:06] [Netty Worker IO Thread #29/INFO]: [Maxi|/192.168.0.128:54480] <-> ServerConnector [lobby] has connected
+[13:47:45] [Netty Worker IO Thread #27/INFO]: [/192.168.0.128:54216|EaglerYeeler9917] -> UpstreamBridge has disconnected
+[13:47:45] [Netty Worker IO Thread #27/INFO]: [/192.168.0.128:54216|EaglerYeeler9917] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:49:35] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/192.168.0.128:59983]: Connected via websocket
+[13:49:35] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/192.168.0.128:59983]: Origin header is https://www.unloop.org
+[13:49:35] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/192.168.0.128:59983]: Logged in as 'EaglerYeeler9917'
+[13:49:35] [Netty Worker IO Thread #0/INFO]: [/192.168.0.128:59983|EaglerYeeler9917] -> UpstreamBridge has connected
+[13:49:35] [Netty Worker IO Thread #0/INFO]: [EaglerYeeler9917|/192.168.0.128:59983] <-> ServerConnector [lobby] has connected
+[13:50:00] [Netty Worker IO Thread #0/INFO]: [/192.168.0.128:59983|EaglerYeeler9917] -> UpstreamBridge has disconnected
+[13:50:00] [Netty Worker IO Thread #0/INFO]: [/192.168.0.128:59983|EaglerYeeler9917] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:53:20] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/192.168.0.128:60397]: Connected via websocket
+[13:53:20] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/192.168.0.128:60397]: Origin header is https://www.unloop.org
+[13:53:20] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/192.168.0.128:60397]: Logged in as 'EaglerYeeler9917'
+[13:53:20] [Netty Worker IO Thread #5/INFO]: [/192.168.0.128:60397|EaglerYeeler9917] -> UpstreamBridge has connected
+[13:53:20] [Netty Worker IO Thread #5/INFO]: [EaglerYeeler9917|/192.168.0.128:60397] <-> ServerConnector [lobby] has connected
+[13:54:46] [Netty Worker IO Thread #5/INFO]: [/192.168.0.128:60397|EaglerYeeler9917] -> UpstreamBridge has disconnected
+[13:54:46] [Netty Worker IO Thread #5/INFO]: [/192.168.0.128:60397|EaglerYeeler9917] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:55:01] [Netty Worker IO Thread #29/INFO]: [/192.168.0.128:54480|Maxi] -> UpstreamBridge has disconnected
+[13:55:01] [Netty Worker IO Thread #29/INFO]: [/192.168.0.128:54480|Maxi] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:55:48] [Netty Worker IO Thread #8/INFO] [EaglercraftXBungee]: [/192.168.0.128:60839]: Connected via websocket
+[13:55:48] [Netty Worker IO Thread #8/INFO] [EaglercraftXBungee]: [/192.168.0.128:60839]: Origin header is https://www.unloop.org
+[13:55:48] [Netty Worker IO Thread #8/INFO] [EaglercraftXBungee]: [/192.168.0.128:60839]: Logged in as 'Maxi'
+[13:55:48] [Netty Worker IO Thread #8/INFO]: [/192.168.0.128:60839|Maxi] -> UpstreamBridge has connected
+[13:55:48] [Netty Worker IO Thread #8/INFO]: [Maxi|/192.168.0.128:60839] <-> ServerConnector [lobby] has connected
+[13:56:00] [Netty Worker IO Thread #8/INFO]: [/192.168.0.128:60839|Maxi] -> UpstreamBridge has disconnected
+[13:56:00] [Netty Worker IO Thread #8/INFO]: [/192.168.0.128:60839|Maxi] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:59:58] [Netty Worker IO Thread #14/INFO] [EaglercraftXBungee]: [/192.168.0.128:57249]: Connected via websocket
+[14:59:58] [Netty Worker IO Thread #14/INFO] [EaglercraftXBungee]: [/192.168.0.128:57249]: Origin header is https://www.unloop.org
+[14:59:58] [Netty Worker IO Thread #14/INFO] [EaglercraftXBungee]: [/192.168.0.128:57249]: Logged in as 'YeerYee6410'
+[14:59:58] [Netty Worker IO Thread #14/INFO]: [/192.168.0.128:57249|YeerYee6410] -> UpstreamBridge has connected
+[14:59:58] [Netty Worker IO Thread #14/INFO]: [YeerYee6410|/192.168.0.128:57249] <-> ServerConnector [lobby] has connected
+[15:01:09] [Netty Worker IO Thread #14/INFO]: [/192.168.0.128:57249|YeerYee6410] -> UpstreamBridge has disconnected
+[15:01:09] [Netty Worker IO Thread #14/INFO]: [/192.168.0.128:57249|YeerYee6410] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:19:21] [Netty Worker IO Thread #17/INFO] [EaglercraftXBungee]: [/192.168.0.128:58855]: Connected via websocket
+[15:19:21] [Netty Worker IO Thread #17/INFO] [EaglercraftXBungee]: [/192.168.0.128:58855]: Origin header is https://www.unloop.org
+[15:19:21] [Netty Worker IO Thread #17/INFO] [EaglercraftXBungee]: [/192.168.0.128:58855]: Logged in as 'YeerYee6410'
+[15:19:21] [Netty Worker IO Thread #17/INFO]: [/192.168.0.128:58855|YeerYee6410] -> UpstreamBridge has connected
+[15:19:21] [Netty Worker IO Thread #17/INFO]: [YeerYee6410|/192.168.0.128:58855] <-> ServerConnector [lobby] has connected
+[15:23:31] [Netty Worker IO Thread #17/WARN]: [/192.168.0.128:58855|YeerYee6410] <-> DownstreamBridge <-> [lobby] - IOException: An existing connection was forcibly closed by the remote host
+[15:23:31] [Netty Worker IO Thread #17/INFO]: [YeerYee6410] disconnected with: IOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+[15:23:31] [Netty Worker IO Thread #17/INFO]: [/192.168.0.128:58855|YeerYee6410] -> UpstreamBridge has disconnected
+[15:23:31] [Netty Worker IO Thread #17/INFO]: [/192.168.0.128:58855|YeerYee6410] <-> DownstreamBridge <-> [lobby] has disconnected
