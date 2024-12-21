@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unloop</title>
     <link rel="icon" sizes="512x512" href="media/watercrdropicon.ico"/>
@@ -15,352 +15,83 @@
             flex-direction: column;
             justify-content: space-between;
             min-height: 100vh;
-            align-items: center; /* Centers everything horizontally */
-        }
-body{
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	position: relative;
-	background: #121212;
-}
-
-ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-a {
-	outline: none !important;
-}
-.ms-nav-container {
-	position: relative;
-	width: 100%;
-	height: 100vh;
-}
-#ms-menu {
-	display: none;
-}
-.bg-change {
-	position: absolute;
-	bottom: -75px;
-	right: -90px;
-	width: 1px;
-	height: 1px;
-	border-radius: 100% 0% 0% 0%;
-	background: #2D394D;
-	transition: all .25s ease;
-}
-.ms-nav .ms-menu-toggle:checked ~ .bg-change {
-	width: 3000px;
-	height: 3000px;
-	transition: all .5s ease;
-}
-.ms-nav {
-	position: absolute;
-	bottom: 75px;
-	right: 75px;
-}
-.ms-nav > .ms-main {
-	position: relative;
-}
-
-.ms-nav > .ms-li {
-	position: absolute;
-	bottom: 0;
-	right: 8px;
-	transition: bottom .5s ease;
-	z-index: 1;
-}
-.ms-nav .ms-menu-toggle:checked ~ .ms-li a {
-	box-shadow: 0px 5px 10px #333333;
-}
-	.ms-nav .ms-menu-toggle:checked ~ .ms-li1 {
-		bottom: 150%;
-		transition: bottom .5s ease;
-	}
-	.ms-nav .ms-menu-toggle:checked ~ .ms-li1 a span {
-		opacity: 1;
-		transition: opacity .5s ease .1s;
-	}
-		.ms-nav .ms-menu-toggle:checked ~ .ms-main:after {
-			animation: big-border-bottom-animation .5s ease .1s;
-		}
-		.ms-nav .ms-menu-toggle:checked ~ .ms-li1:before {
-			animation: border-top-animation .5s ease .2s;
-		}
-		.ms-nav .ms-menu-toggle:checked ~ .ms-li1:after {
-			animation: border-bottom-animation .5s ease .2s;
-		}
-	.ms-nav .ms-menu-toggle:checked ~ .ms-li2 {
-		bottom: 265%;
-		transition: bottom .6s ease;
-	}
-	.ms-nav .ms-menu-toggle:checked ~ .ms-li2 a span {
-		opacity: 1;
-		transition: opacity .6s ease .2s;
-	}
-		.ms-nav .ms-menu-toggle:checked ~ .ms-li2:before {
-			animation: border-top-animation .5s ease .2s;
-		}
-		.ms-nav .ms-menu-toggle:checked ~ .ms-li2:after {
-			animation: border-bottom-animation .5s ease .3s;
-		}
-	.ms-nav .ms-menu-toggle:checked ~ .ms-li3 {
-		bottom: 380%;
-		transition: bottom .7s ease;
-	}
-	.ms-nav .ms-menu-toggle:checked ~ .ms-li3 a span {
-		opacity: 1;
-		transition: opacity .7s ease .3s;
-	}
-		.ms-nav .ms-menu-toggle:checked ~ .ms-li3:before {
-			animation: border-top-animation .5s ease .3s;
-		}
-		.ms-nav .ms-menu-toggle:checked ~ .ms-li3:after {
-			animation: border-bottom-animation .5s ease .4s;
-		}
-	.ms-nav .ms-menu-toggle:checked ~ .ms-li4 {
-		bottom: 495%;
-		transition: bottom .8s ease;
-	}
-	.ms-nav .ms-menu-toggle:checked ~ .ms-li4 a span {
-		opacity: 1;
-		transition: opacity .8s ease .4s;
-	}
-		.ms-nav .ms-menu-toggle:checked ~ .ms-li4:before {
-			animation: border-top-animation .5s ease .4s;
-		}
-	
-		.ms-nav .ms-menu-toggle ~ .ms-li:before {
-			content: '';
-			width: 45px;
-			display: block;
-			position: absolute;
-			bottom: -5px;
-			left: 0;
-			right: 0;
-			margin: auto;
-			border-left: 20px solid transparent;
-			border-right: 20px solid transparent;
-			border-top: 0px solid #337ab7;
-		}
-		.ms-nav .ms-menu-toggle ~ .ms-li:before {
-			content: '';
-			width: 45px;
-			display: block;
-			position: absolute;
-			bottom: -5px;
-			left: 0;
-			right: 0;
-			margin: auto;
-			border-left: 20px solid transparent;
-			border-right: 20px solid transparent;
-			border-top: 0px solid #337ab7;
-		}
-		.ms-nav .ms-menu-toggle:checked ~ .ms-li:before {
-			content: '';
-			width: 45px;
-			display: block;
-			position: absolute;
-			bottom: 0px;
-			left: 0;
-			right: 0;
-			margin: auto;
-			border-left: 24px solid transparent;
-			border-right: 24px solid transparent;
-			border-top: 25px solid #337ab7;
-			z-index: 11;
-		}
-		.ms-nav .ms-menu-toggle:checked ~ .ms-li:after {
-			content: '';
-			width: 45px;
-			display: block;
-			position: absolute;
-			top: 0px;
-			left: 0;
-			right: 0;
-			margin: auto;
-			border-left: 24px solid transparent;
-			border-right: 24px solid transparent;
-			border-bottom: 25px solid #337ab7;
-			transition: border-bottom .3s ease;
-			z-index: 11;
-		}
-
-		.ms-nav .ms-menu-toggle:checked ~ .ms-main:after {
-			content: '';
-			width: 60px;
-			display: block;
-			position: absolute;
-			top: 0px;
-			left: 0;
-			right: 0;
-			margin: auto;
-			border-left: 24px solid transparent;
-			border-right: 24px solid transparent;
-			border-bottom: 45px solid #337ab7;
-			transition: border-bottom .3s ease;
-			z-index: 11;
-		}
-		.ms-nav .ms-menu-toggle:checked ~ .ms-li-last:after {
-			content: '';
-			width: 45px;
-			display: block;
-			position: absolute;
-			top: -5px;
-			left: 0;
-			right: 0;
-			margin: auto;
-			border-left: 0px solid transparent;
-			border-right: 0px solid transparent;
-			border-bottom: 0px solid #337ab7;
-		}
-
-.ms-nav .ms-menu-toggle:checked ~ .ms-main span {
-	transform: rotate(-45deg);
-	transition: transform .35s ease;
-}
-.ms-nav .ms-menu-toggle ~ .ms-main span {
-	transition: transform .35s ease;
-	opacity: 1;
-}
-.ms-nav > .ms-main > a {
-	box-shadow: 0px 5px 10px #333333;
-}
-.ms-nav > li a {
-	font-size: 30px;
-	color: #FFFFFF;
-	background: #337ab7;
-	width: 60px;
-	height: 60px;
-	display: block;
-	border-radius: 100%;
-	position: relative;
-	text-align: center;
-}
-
-	.ms-nav > .ms-main a,
-	.ms-nav > .ms-main > a > label {
-		font-size: 30px;
-		color: #FFFFFF;
-		background: #337ab7;
-		width: 75px;
-    	height: 75px;
-		display: block;
-		border-radius: 100%;
-		position: relative;
-		text-align: center;
-		z-index: 19;
-	}
-		.ms-nav > li > a span {
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			margin: auto;
-			height: 30px;
-			width: 30px;
-			opacity: 0;
-			z-index: 12;
-		}
-@keyframes border-top-animation {
-  0% {
-    bottom: 0px;
-  }
-  50% {
-    bottom: -14px;
-  }
-  100% {
-    bottom: 0px;
-  }
-}
-@keyframes border-bottom-animation {
-  0% {
-    top: 0px;
-  }
-  50% {
-    top: -13px;
-  }
-  100% {
-    top: 0px;
-  }
-}
-@keyframes big-border-bottom-animation {
-  0% {
-    top: 0px;
-  }
-  50% {
-    top: -30px;
-  }
-  100% {
-    top: 0px;
-  }
-}
-
-        header {
-            width: 100%;
-            background-color: #1c1c1c;
-            display: flex;
             align-items: center;
-            justify-content: center; /* Centers content horizontally */
-            padding: 10px 20px;
+            width: 100%;
+            height: 100%;
+            padding: 0;
             position: relative;
+            padding-top: 300px;
         }
 
         .menu-button {
-            background-color: #1c1c1c;
-            color: white;
-            font-size: 24px;
+            background-color: transparent;
             border: none;
             cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 5px;
             padding: 10px;
             position: absolute;
-            left: 20px; /* Position the menu button to the left of the header */
+            left: 20px;
+            top: 20px;
+            z-index: 1000;
         }
 
         .menu-button span {
             display: block;
-            width: 30px;
+            width: 25px;
             height: 3px;
             background-color: white;
-            transition: transform 0.3s ease;
+            margin: 5px 0;
+            transition: 0.3s;
+        }
+
+        .menu-button.active span:nth-child(1) {
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+
+        .menu-button.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .menu-button.active span:nth-child(3) {
+            transform: rotate(45deg) translate(-5px, -6px);
         }
 
         .menu {
-            position: absolute;
-            top: 100%;
+            position: fixed;
+            top: 0;
             left: 0;
             background-color: #1c1c1c;
-            width: 200px;
+            width: 250px;
+            height: 100vh;
             display: none;
             flex-direction: column;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            padding-top: 60px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+            z-index: 999;
         }
 
         .menu a {
             color: white;
             text-decoration: none;
+            padding: 15px 25px;
             font-size: 18px;
-            padding: 10px;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s;
         }
 
         .menu a:hover {
             background-color: #009bff;
         }
 
-        .menu-button.active + .menu {
+        header {
+            width: 100%;
+            background-color: #1c1c1c;
             display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
         }
 
         .play-button {
@@ -374,11 +105,11 @@ a {
             cursor: pointer;
             transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
             text-decoration: none;
-            margin: 1px 20px; /* Margin for spacing between elements */
+            margin: 1px 20px;
             display: flex;
             justify-content: center;
-	    align-items: center;
-	    text-align: center;
+            align-items: center;
+            text-align: center;
         }
 
         .play-button:hover {
@@ -390,23 +121,23 @@ a {
         .play-button:active {
             transform: scale(1.1);
         }
-   .unstable-button {
+
+        .unstable-button {
             background-color: white;
             color: #121212;
             font-size: 20px;
-            font-weight: bold
-;
+            font-weight: bold;
             padding: 10px 20px;
             border: none;
             border-radius: 15px;
             cursor: pointer;
             transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
             text-decoration: none;
-            margin: 2px 2px; /* Margin for spacing between elements */
+            margin: 2px 2px;
             display: flex;
             justify-content: center;
-	    align-items: center;
-	    text-align: center;
+            align-items: center;
+            text-align: center;
         }
 
         .unstable-button:hover {
@@ -417,7 +148,7 @@ a {
 
         .unstable-button:active {
             transform: scale(1.1);
-}
+        }
 
         .text-container {
             background-color: #0E0E0F;
@@ -431,6 +162,15 @@ a {
             box-sizing: border-box;
             position: relative;
             box-shadow: 0 0 10px 5px rgba(14, 14, 14, 1), 0 0 20px 5px rgba(158, 158, 158, 255);
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
         }
 
         footer {
@@ -451,30 +191,119 @@ a {
             height: 40px;
             background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"%3E%3Cpath fill="%23121212" fill-opacity="1" d="M0,192L48,176C96,160,192,128,288,122.7C384,117,480,139,576,149.3C672,160,768,160,864,149.3C960,139,1056,117,1152,101.3C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"%3E%3C/path%3E%3C/svg%3E') repeat-x;
         }
-        .button-container {
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    align-items: center;
+    z-index: 2000;
 }
 
+.popup-content {
+    background: #1c1c1c;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 500px;
+    text-align: center;
+    border: 2px solid #009bff;
+}
+
+.popup-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.remember-choice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#agree-button {
+    background: #009bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#agree-button:hover {
+    background: #0076c2;
+    transform: scale(1.05);
+}
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;  /* Changed from flex to none initially */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+}
+
+a {
+color: #009bff;
+}
     </style>
 </head>
 <body>
-   <header>
-    <div class="button-container">
-        <a href="play/play/index.html" class="play-button">Play</a>
-        <a href="play/playXWASM/index.html" class="unstable-button">Unstable Version</a>
+<div id="consent-popup" class="popup-overlay">
+    <div class="popup-content">
+        <h2>Terms of Service</h2>
+        <p>By clicking "I Agree", you confirm that you are not using this website in class or in a proffessional setting and that you have read and understood all the <a href="rules.html">server rules.</a></p>
+        <div class="popup-actions">
+            <label class="remember-choice">
+                <input type="checkbox" id="remember-consent">
+                <span>Do not show again</span>
+            </label>
+            <button id="agree-button">I Agree</button>
+        </div>
     </div>
-</header>
-    <!-- Text container with light grey background, rounded edges, and gradient outline -->
+</div>
+
+    <header>
+        <button class="menu-button" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="play/play/index.html">Play Game</a>
+            <a href="play/playXWASM/index.html">Unstable Version</a>
+            <a href="rules.html">Rules</a>
+           
+        </nav>
+        
+        <div class="button-container">
+            <a href="play/play/index.html" class="play-button">Play</a>
+            <a href="play/playXWASM/index.html" class="unstable-button">Unstable Version</a>
+        </div>
+    </header>
+
     <div class="text-container">
-        <h1>Announcments - </h2>
+        <h1>Announcements - </h1>
         <p>
             <h2>Open Beta V0.1!</h2> <br>
-YES! I finally am able to publish this. (in beta atleast). Currently, you can play singleplayer and multiplayer with 90% success 
+            YES! I finally am able to publish this. (in beta atleast). Currently, you can play singleplayer and multiplayer with 90% success 
         </p>
     </div>
 
@@ -483,13 +312,43 @@ YES! I finally am able to publish this. (in beta atleast). Currently, you can pl
     </footer>
 
     <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const popup = document.getElementById('consent-popup');
+    const agreeButton = document.getElementById('agree-button');
+    const rememberCheckbox = document.getElementById('remember-consent');
+
+    // Check for existing consent
+    if (!localStorage.getItem('rulesConsent')) {
+        popup.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    }
+
+    agreeButton.addEventListener('click', function() {
+        if (rememberCheckbox.checked) {
+            localStorage.setItem('rulesConsent', 'true');
+        }
+        popup.style.opacity = '0';
+        document.body.style.overflow = 'auto';
+        
+        setTimeout(() => {
+            popup.style.display = 'none';
+        }, 300);
+    });
+});
         const menuToggle = document.getElementById('menu-toggle');
         const menu = document.querySelector('.menu');
-
+        
         menuToggle.addEventListener('click', () => {
             menuToggle.classList.toggle('active');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!menu.contains(event.target) && !menuToggle.contains(event.target)) {
+                menu.style.display = 'none';
+                menuToggle.classList.remove('active');
+            }
         });
     </script>
-
-
-</body></html>
+</body>
+</html>
